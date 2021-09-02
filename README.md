@@ -15,4 +15,4 @@
 - 2021-09-01 
   - [Web Service 개발방법, SOAP와 REST의 이해](./spring-boot-RESTful/Section0-WebServiceANDWebApplication/Web%20Service%20개발방법%20SOAP과%20REST의%20이해.md)
   - [Spring Boot RESTful Service](./spring-boot-RESTful/Section1-SpringBoot로개발하는RESTfulService/SpringBoot-RESTful%20Service.md)
-- 2021-09-02 [구조를 나타내는 요소](./html/Section0-HTML개요/20210829-HTML개요.md)
+- 2021-09-02 [구조를 나타내는 요소](./html/Section3-구조를나타내는요소/20210902-구조를나타내는요소.md)
