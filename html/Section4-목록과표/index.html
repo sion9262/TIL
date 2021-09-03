@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        td,
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        th[scope="col"] {
+            background-color: #696969;
+            color: #fff;
+        }
+
+        th[scope="row"] {
+            background-color: #d7d9f2;
+        }
+
+        caption {
+            padding: 10px;
+            caption-side: bottom;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            font-size: .8rem;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 순서가 있는 목록 -->
+    <h2>순서가 있는 목록</h2>
+    <ol reversed="true" start="3">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ol>
+
+    <!-- 순서가 없는 목록 -->
+    <h2>순서가 없는 목록</h2>
+    <ul>
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ul>
+
+    <!-- 중첩 목록 -->
+    <h2>중첩 목록</h2>
+    <ol>
+        <li> first </li>
+        <li>
+            second item
+            <ul>
+                <li>second 1</li>
+                <li>second 2</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!-- dl tag -->
+    <h2> dl tag</h2>
+    <dl>
+        <dt>Beast of Bodmin</dt>
+        <dd>A large feline inhabiting Bodmin Moor.</dd>
+    </dl>
+
+    <!-- table -->
+    <h2>테이블</h2>
+    <table>
+        <caption>Alien football stars</caption>
+        <tr>
+            <th scope="col">Player</th>
+            <th scope="col">Gloobles</th>
+            <th scope="col">Za'taak</th>
+        </tr>
+        <tr>
+            <th scope="row">TR-7</th>
+            <td>7</td>
+            <td>4,569</td>
+        </tr>
+        <tr>
+            <th scope="row">Khiresh Odo</th>
+            <td>7</td>
+            <td>7,223</td>
+        </tr>
+        <tr>
+            <th scope="row">Mia Oolong</th>
+            <td>9</td>
+            <td>6,219</td>
+        </tr>
+    </table>
+
+</body>
+</html>
