@@ -4,6 +4,7 @@
 ### 목차
 
 - HTML [학습내용](./html)
+- CSS [학습내용](./css)
 - Simple Spring Boot RESTful Service [학습내용](./spring-boot-RESTful) 
 - 회고록 [회고](./diary)
 
@@ -23,3 +24,4 @@
 - 2021-09-06 [폼 요소](./html/Section6-폼요소/20210906-폼요소.md)
 - 2021-09-07 [메타데이터의 역할](./html/Section7-메타데이터의역할/20210907-메타데이터.md)
 - 2021-09-08 [전역 속성](./html/Section8-전역속성/20210908-전역속성.md)
+- 2021-09-09 [CSS 개요](./css/Section0-CSS개요/20210909-CSS개요.md)
