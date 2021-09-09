@@ -1,0 +1,22 @@
+li:first-child {
+    color : green;
+}
+.movie:first-child {
+    color : blue;
+}
+li:last-child{
+    color : pink;
+}
+
+div:first-of-type {
+    color : red
+}
+p:last-of-type {
+    color : red
+}
+input:not([type=password]) {
+    color : red
+}
+input:not(.pw) {
+    color : red
+}
