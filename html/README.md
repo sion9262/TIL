@@ -1,6 +1,5 @@
 # HTML 공부 
 
-본 공부는 ZEROBASE HTML 강의를 들으며 정리한 내용입니다.
 ### 목차
 
 1. HTML 개요 

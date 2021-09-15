@@ -32,3 +32,7 @@
   - [CSS/폰트 관련 속성](./css/Section2-폰트관련속성/20210910-폰트관련속성.md)
 - 2021-09-11 [단위와 값](./css/Section3-단위와값/20210911-단위와값.md)
 - 2021-09-12 [박스모델](./css/Section4-박스모델/20210912-박스모델.md)
+- 2021-09-15 [그리드 알고리즘](./algorithm/Greedy/탐욕알고리즘.md)
+  - [동전 문제](./algorithm/Greedy/problems/동전문제.py)
+  - [배낭 문제](./algorithm/Greedy/problems/배낭문제.py)
+  - [1913-회의실배정](./algorithm/Greedy/problems/1913-회의실배정.py)
