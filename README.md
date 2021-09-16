@@ -38,3 +38,7 @@
     - [배낭 문제](./algorithm/Greedy/problems/배낭문제.py)
     - [1913-회의실배정](./algorithm/Greedy/problems/1913-회의실배정.py)
   - [RESTfulService기능 확장 - Valid](./spring-boot-RESTful/Section3-RESTful%20Service%20기능%20확장%20/RESTfulService기능확장.md)
+- 2021-09-16 
+  - [최단 경로 알고리즘 다익스트라](./algorithm/최단경로/최단경로알고리즘.md)
+    - [다익스트라예제](./algorithm/최단경로/다익스트라예제.py)
+    - [1916-최소비용](./algorithm/최단경로/problems/1916-최소비용.py)
