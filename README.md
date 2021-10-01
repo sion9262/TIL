@@ -52,7 +52,9 @@
 - 2021-09-28
   - [백트래킹](./algorithm/백트래킹/백트래킹.md)
     - [9663-NQueen](./algorithm/백트래킹/problems/9663-NQueen.py)
-- 2021-09-20
+- 2021-09-29
   - [1874-스택수열](./algorithm/problems/1874-스택수열.py)
   - [2920-음계](./algorithm/problems/2920-음계.py)
   - [타겟넘버](./algorithm/problems/타겟넘버.py)
+- 2021-10-01
+  - [16956-늑대와양](./algorithm/problems/16956-늑대와양.py)
