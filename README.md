@@ -58,3 +58,6 @@
   - [타겟넘버](./algorithm/problems/타겟넘버.py)
 - 2021-10-01
   - [16956-늑대와양](./algorithm/problems/16956-늑대와양.py)
+- 2021-10-02
+  - [1012-유기농배추](./algorithm/problems/1012-유기농배추.py)
+  - [14620-꽃길](./algorithm/problems/14620-꽃길.py)
