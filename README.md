@@ -15,8 +15,8 @@
 - 2021-08-30 [HTML/HTML 이란?(2)](./html/Section1-HTML/20210830-HTML(2).md)
 - 2021-08-31 [HTML/TEXT 요소](./html/Section2-TEXT요소/20210831-TEXT요소.md)
 - 2021-09-01 
-  - [Sprnig/Web Service 개발방법, SOAP와 REST의 이해](./spring-boot-RESTful/Section0-WebServiceANDWebApplication/Web%20Service%20개발방법%20SOAP과%20REST의%20이해.md)
-  - [Sprnig/Spring Boot RESTful Service](./spring-boot-RESTful/Section1-SpringBoot로개발하는RESTfulService/SpringBoot-RESTful%20Service.md)
+  - [Sprnig/Web Service 개발방법, SOAP와 REST의 이해](./spring-boot-RESTful/Section0-WebServiceANDWebApplication/WebService개발방법SOAP과REST의이해.md)
+  - [Sprnig/Spring Boot RESTful Service](./spring-boot-RESTful/Section1-SpringBoot로개발하는RESTfulService/SpringBoot-RESTfulService.md.md)
 - 2021-09-02 [HTML/구조를 나타내는 요소](./html/Section3-구조를나타내는요소/20210902-구조를나타내는요소.md)
 - 2021-09-03 [HTML/목록과 표](./html/Section4-목록과표/20210903-목록과표.md)
 - 2021-09-04 [Diary/2021 Dev-Matching 프론트 하반기](./diary/20210904DevMatching하반기.md)
@@ -37,7 +37,7 @@
     - [동전 문제](./algorithm/Greedy/problems/동전문제.py)
     - [배낭 문제](./algorithm/Greedy/problems/배낭문제.py)
     - [1913-회의실배정](./algorithm/Greedy/problems/1913-회의실배정.py)
-  - [RESTfulService기능 확장 - Valid](./spring-boot-RESTful/Section3-RESTful%20Service%20기능%20확장%20/RESTfulService기능확장.md)
+  - [RESTfulService기능 확장 - Valid](./spring-boot-RESTful/Section3-RESTfulService기능확장/RESTfulService기능확장.md)
 - 2021-09-16 
   - [최단 경로 알고리즘 다익스트라](./algorithm/최단경로/최단경로알고리즘.md)
     - [다익스트라예제](./algorithm/최단경로/다익스트라예제.py)
