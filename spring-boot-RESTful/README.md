@@ -14,7 +14,7 @@
 
 ### 공부 내용 및 일자 
 - 2021-09-01 
-  - [Web Service 개발방법, SOAP와 REST의 이해](./Section0-WebServiceANDWebApplication/Web%20Service%20개발방법%20SOAP과%20REST의%20이해.md)
-  - [Spring Boot RESTful Service](./Section1-SpringBoot로개발하는RESTfulService/SpringBoot-RESTful%20Service.md)
+  - [Web Service 개발방법, SOAP와 REST의 이해](./Section0-WebServiceANDWebApplication/WebService개발방법SOAP과REST의이해.md)
+  - [Spring Boot RESTful Service](./Section1-SpringBoot로개발하는RESTfulService/SpringBoot-RESTfulService.md)
 - 2021-09-15
-  - [RESTfulService기능 확장 - Valid](./Section3-RESTful%20Service%20기능%20확장%20/RESTfulService기능확장.md)
+  - [RESTfulService기능 확장 - Valid](./Section3-RESTfulService기능확장/RESTfulService기능확장.md)
