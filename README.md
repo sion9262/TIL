@@ -100,3 +100,5 @@
     - [침몰하는타이타닉](./Greedy/problems/침몰하는타이타닉.py)
     - [증가수열만들기](./Greedy/problems/증가수열만들기.py)
     - [역수열](./Greedy/problems/역수열.py)
+  - 회고록
+    - [데브매칭 하반기 백엔드](./diary/20211016DevMatching하반기(백엔드).md)
