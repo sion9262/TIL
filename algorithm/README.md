@@ -62,3 +62,10 @@
   - [랜선자르기](./이분탐색/랜선자르기.py)
   - [뮤직비디오](./이분탐색/뮤직비디오.py)
   - [마구간정하기](./이분탐색/마구간정하기.py)
+- 2021-10-16
+  - [회의실배정](./Greedy/problems/회의실배정.py)
+  - [씨름선수](./Greedy/problems/씨름선수.py)
+  - [창고정리](./Greedy/problems/창고정리.py)
+  - [침몰하는타이타닉](./Greedy/problems/침몰하는타이타닉.py)
+  - [증가수열만들기](./Greedy/problems/증가수열만들기.py)
+  - [역수열](./Greedy/problems/역수열.py)
