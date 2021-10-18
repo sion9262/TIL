@@ -94,11 +94,16 @@
   - [마구간정하기](./algorithm/이분탐색/마구간정하기.py)
 - 2021-10-16
   - 알고리즘
-    - [회의실배정](./Greedy/problems/회의실배정.py)
-    - [씨름선수](./Greedy/problems/씨름선수.py)
-    - [창고정리](./Greedy/problems/창고정리.py)
-    - [침몰하는타이타닉](./Greedy/problems/침몰하는타이타닉.py)
-    - [증가수열만들기](./Greedy/problems/증가수열만들기.py)
-    - [역수열](./Greedy/problems/역수열.py)
+    - [회의실배정](./algorithm/Greedy/problems/회의실배정.py)
+    - [씨름선수](./algorithm/Greedy/problems/씨름선수.py)
+    - [창고정리](./algorithm/Greedy/problems/창고정리.py)
+    - [침몰하는타이타닉](./algorithm/Greedy/problems/침몰하는타이타닉.py)
+    - [증가수열만들기](./algorithm/Greedy/problems/증가수열만들기.py)
+    - [역수열](./algorithm/Greedy/problems/역수열.py)
   - 회고록
     - [데브매칭 하반기 백엔드](./diary/20211016DevMatching하반기(백엔드).md)
+- 2021-10-18
+  - 알고리즘
+    - [가장큰수](./algorithm/자료구조(스택큐해쉬힙)/가장큰수.py)
+    - [쇠막대기](./algorithm/자료구조(스택큐해쉬힙)/쇠막대기.py)
+    - [최근점쌍찾기](./algorithm/이분탐색/최근점쌍찾기.py)
