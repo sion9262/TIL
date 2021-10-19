@@ -2,10 +2,19 @@ package sion.basic.member;
 
 
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import sion.basic.AppCofing;
 
 public class MemberSerivceTest {
-    MemberService memberService = new MemberServiceImpl();
+    MemberService memberService;
+
+    @BeforeEach
+    public void beforeEach() {
+        AppCofing appCofing = new AppCofing();
+        memberService = appCofing.memberService();
+    }
+
 
     @Test
     void join(){

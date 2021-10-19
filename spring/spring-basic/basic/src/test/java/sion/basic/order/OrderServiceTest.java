@@ -2,6 +2,8 @@ package sion.basic.order;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import sion.basic.AppCofing;
 import sion.basic.member.Grade;
 import sion.basic.member.Member;
 import sion.basic.member.MemberService;
@@ -9,9 +11,14 @@ import sion.basic.member.MemberServiceImpl;
 
 public class OrderServiceTest {
 
-    MemberService memberService = new MemberServiceImpl();
-    OrderService orderService = new OrderServiceImpl();
-
+    MemberService memberService;
+    OrderService orderService;
+    @BeforeEach
+    public void beforeEach() {
+        AppCofing appCofing = new AppCofing();
+        memberService = appCofing.memberService();
+        orderService = appCofing.orderService();
+    }
     @Test
     public void createOrder() {
 
