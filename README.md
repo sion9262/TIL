@@ -116,3 +116,4 @@
 - 2021-10-20
   - Spring
     - [ch5-싱글톤 컨테이너](./spring/spring-basic/ch5-싱글톤컨테이너/)
+    - [ch6-컴포넌트스캔](./spring/spring-basic/ch6-컴포넌트스캔)
