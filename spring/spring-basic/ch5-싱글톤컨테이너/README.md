@@ -63,3 +63,39 @@
 - 공유필드는 조심하고, 스프링 빈은 항상 무상태를 유지해야한다.
 
 ## @Configuration과 싱글톤
+
+- AppCofing가 생성되면 다음과 같은 호출을 예상한다.
+```java
+// 실행 순서 예상
+// call AppCofing.memberService
+// call AppCofing.memberRepository
+// call AppCofing.orderService
+// call AppCofing.memberRepository
+// call AppCofing.memberRepository
+```
+- 다음과 같은 방식이라면, memberRepository는 3번 호출되어 생성하게 되는데 싱글톤 위반이 아닌가?
+- 하지만 실행 결과는 다음과 같다.
+```java
+// 실제
+// call AppCofing.memberService
+// call AppCofing.memberRepository
+// call AppCofing.orderService
+```
+
+이러한 방식이 어떻게 가능한 것일까?
+
+## @Configuration과 바이트코드 조작의 마법
+- 스프링은 클래스의 바이트코드를 조작하는 라이브러리를 사용한다.
+- `AppConfig`를 `AnnotationCOnfigApplicationContext`에 등록해서 사용되지만 실제로는 
+클래스에 CGlib라는 바이트코드 조작 라이브러리를 사용하여 `AppCofing`를 상속받은 임의의 다른 클래스를 만들고,
+그 다른 클래스를 스프링 빈으로 등록한 것임.
+- 임의의 다른 클래스가 바로 싱글톤이 보장되도록 해준다.
+
+`@Configuration`을 제거하고 `@Bean`을 등록한다면?  
+- 순수한 `AppConfig`가 등록된다.
+- `MemberRepository`는 3번 호출 된다.
+- 따라서 각각 다른 인스턴스를 가지고 있다.
+
+## 정리
+
+- `@Bean`만 사용해도 스프링 빈으로 등록되지만, 싱글톤을 보장하지 않는다.
