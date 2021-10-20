@@ -113,3 +113,6 @@
   - Spring
     - [ch3-객체지향원리적용](./spring/spring-basic/ch3-객체지향원리적용/)
     - [ch4-스프링컨테이너와 빈](./spring-basic/ch4-스프링컨테이너와빈/)
+- 2021-10-20
+  - Spring
+    - [ch5-싱글톤 컨테이너](./spring/spring-basic/ch5-싱글톤컨테이너/)
