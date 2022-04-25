@@ -14,24 +14,28 @@ const Title = styled.h1`
 `;
 
 const Button = styled.button`
-  /* Adapt the colors based on primary prop */
-  background: ${props => props.palevioletred ? "palevioletred" : "white"};
-  color: ${props => props.palevioletred ? "white" : "palevioletred"};
-
+  display: inline-block;
+  color: palevioletred;
   font-size: 1em;
   margin: 1em;
   padding: 0.25em 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
+  display: block;
 `;
 
+const TomatoButton = styled(Button)`
+  color: tomato;
+  border-color: tomato;
+`;
 
+const ReversedButton = props => <Button {...props} children={props.children.split('').reverse()} />
 function App() {
   return (
     <Wrapper>
       <Title>안녕하세요!</Title>
       <Button>기본</Button>
-      <Button palevioletred>palevioletred</Button>
+      <TomatoButton as={ReversedButton}>Tomato is Tomato</TomatoButton>
     </Wrapper>
   );
 }
