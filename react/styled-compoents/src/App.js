@@ -1,27 +1,38 @@
 import "./App.css"
 import styled from "styled-components";
 
-const Button = styled.button`
-  box-sizing: border-box;
-  margin: 10px;
-  padding: 15px 30px;
-  border-radius: 15px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  background-color: ${props => props.bgColor};
-  color: ${props => props.color};
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+  text-align: center;
 `;
+
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+const Button = styled.button`
+  /* Adapt the colors based on primary prop */
+  background: ${props => props.palevioletred ? "palevioletred" : "white"};
+  color: ${props => props.palevioletred ? "white" : "palevioletred"};
+
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+`;
+
 
 function App() {
   return (
-    <div>
-      <button className="button button--color-white">하얀색</button>
-      <button className="button button--color-black">검은색</button>
-      <div>
-        <Button bgColor="white" color="black">하얀색</Button>
-        <Button bgColor="red" color="white">빨간색</Button>
-        <Button bgColor="black" color="white">검은색</Button>
-      </div>
-    </div>
+    <Wrapper>
+      <Title>안녕하세요!</Title>
+      <Button>기본</Button>
+      <Button palevioletred>palevioletred</Button>
+    </Wrapper>
   );
 }
 export default App;
