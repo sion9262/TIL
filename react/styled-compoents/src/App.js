@@ -1,5 +1,6 @@
 import "./App.css"
 import styled, { ThemeProvider } from "styled-components";
+import GlobalStyle from "./GlobalStyled";
 
 const Wrapper = styled.section`
   background-color: ${props => props.theme.bgColor};
@@ -20,6 +21,7 @@ const theme = {
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyle/>
       <Wrapper>
         <Title>안녕하세요!</Title>
       </Wrapper>
